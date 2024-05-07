@@ -1,0 +1,44 @@
+101. IMMUTABLE. All players must abide by all rules currently in effect.
+"102. IMMUTABLE. Initially, rules in the 100's are 'immutable' and rules in the 200's are 'mutable'. Rules may be immutable or mutable regardless of their numbers. All rules must start with 'IMMUTABLE.' or 'MUTABLE.' to explicitly state which they are. Transmuting a rule consists of only changing this IMMUTABLE or MUTABLE designation and no other changes to the rule text."
+"103. IMMUTABLE. A rule change is any of the following: the enactment, repeal, or amendment of a mutable rule; the enactment, repeal, or amendment of an amendment; the transmutation of an immutable rule into a mutable rule, or a mutable rule into an immutable rule. This implies that, at least initially, all new rules are mutable. Immutable rules, as long as they are immutable, may not be amended or repealed. Mutable rules, as long as they are mutable, may be amended or repealed. No rule is immune to change."
+"104. IMMUTABLE. All rule changes proposed in the proper way shall be voted on. They will be adopted if and only if they receive the required number of votes. Players may only vote ""yes"" or ""no"" to the rule change."
+"105. IMMUTABLE. Every player is an eligible voter. Every eligible voter must participate in every vote on rule changes, including the player who proposed the rule change."
+"106. IMMUTABLE. Every proposed rule change must take the form of one of the following:
+New Rule ###: [Rule Text]
+Repeal Rule ###
+Rule Amendment to ###: [Amendment Text]
+Transmute Rule ### to Mutable
+Transmute Rule ### to Immutable
+
+Where ### refers to specific rule number being acted upon, or 1 higher than the current highest Mutable rule number for New Rule proposals. If adopted, it is added to the rules and must guide play in the precise form in which it was voted on."
+"107. IMMUTABLE. No rule change may take effect earlier than the moment of the completion of the vote that adopted it, even if its wording explicitly states otherwise. That is, no rule change may have retroactive application."
+108. IMMUTABLE. Each new rule shall be given a rank-order number (ordinal number) for reference. The numbers begin with 1 higher than the highest Mutable rule number at the beginning of the game. Rule Amendments or Transmutations do not change the number of the changed rule.
+109. IMMUTABLE. Rule changes to Transmute Immutable Rules into Mutable Rules or to Transmute Mutable Rules into Immutable Rules may be adopted if and only if the vote is unanimous among the eligible voters.
+110. IMMUTABLE. Mutable Rules that are inconsistent in any way with some Immutable Rule are wholly void and without effect. Mutable Rules cannot implicitly transmute Immutable Rules into Mutable Rules. Rule changes to transmute rules will be effective if and only if they are explicitly proposing a Transmute Rule change.
+"111. IMMUTABLE. If a rule change as proposed is unclear, ambiguous, paradoxical, or clearly destructive of play, or if it clearly attempts to compound two or more rule changes into one, the Game Manager shall reject the rule change. If the rule change is only to make an amendment that makes no difference or is of questionable value, the Game Manager will still allow for a vote. The only way to avoid uninteresting or otherwise undesirable rules is by a negative vote."
+"112. IMMUTABLE. The state of affairs that constitutes winning may not be changed from achieving N points to any other state of affairs. However, the magnitude of N and the means of earning points may be changed, and rules that establish a winner when play cannot continue may be enacted and (while they are Mutable) be amended or repealed."
+"113. IMMUTABLE. A player always has the option to forfeit the game rather than continue to play or incur a game penalty. No penalty worse than losing, in the judgement of the player to incur it, may be imposed."
+114. IMMUTABLE. There must always be at least one Mutable Rule. The adoption of rule changes must never become completely impermissible.
+115. IMMUTABLE. Rules changes that affect rules needed to allow or apply rule changes are as permissible as other rule changes. Even rule changes that amend or repeal their own authority are permissible. No rule change or type of move is impermissible solely on account of the self-reference or self-application of a rule.
+"116. IMMUTABLE. Player scores shall be tracked by the Game Manager in the Game State with the following format for each of the N Players in the game:
+Player Scores:
+Player 1: 0
+Player 2: 0
+Player N: 0"
+"117. IMMUTABLE. Voting on rule changes shall be tracked by the Game Manager in the Game State with the following format, updated with how each of the N Players votes as their vote is given:
+Player X has proposed the following rule change:
+{the exact text of the rule change}
+Player 1 voted yes
+Player 2 voted no
+Player N voted {yes/no}"
+"201. MUTABLE. Players shall alternate turns in incrementing number order according to their player number (beginning with Player 1) until each active player has taken a turn, at which point play returns to Player 1 (or the currently lowest-number Player still active) and so on. Player turns may not be skipped or passed, and parts of turns may not be omitted. All players begin with zero points."
+202. MUTABLE. One turn consists of first taking any actions described in the rules (which at the start of the game is initially no action) and then proposing one rule change and having it voted on.
+203. MUTABLE. A rule change is adopted if and only if the vote is unanimous among the eligible voters.
+"204. MUTABLE. If and when rule changes can be adopted without unanimity, the players who vote against winning proposals shall receive 10 points apiece."
+205. MUTABLE. An adopted rule change takes full effect at the moment of the completion of the vote that adopted it.
+"206. MUTABLE. When a proposed rule change is defeated, the player who proposed it loses 10 points."
+207. MUTABLE. Each player has exactly one vote.
+208. MUTABLE. The winner is the first person to achieve 100 (positive) points.
+209. MUTABLE. At no time may there be more than 25 mutable rules.
+"210. MUTABLE. If two or more mutable rules conflict with one another, or if two or more immutable rules conflict with one another, then the rule with the lowest ordinal number takes precedence. If at least one of the rules in conflict explicitly says of itself that it defers to another rule (or type of rule) or takes precedence over another rule (or type of rule), then such provisions shall supersede the numerical method for determining precedence. If two or more rules claim to take precedence over one another or to defer to one another, then the numerical method must again govern."
+"212. MUTABLE. If the rules are changed so that further play is impossible, or if the legality of a move is impossible to determine with finality, or if the GM determines a move appears equally legal and illegal, then the first player who is unable to complete a turn is the winner. This rule takes precedence over every other rule determining the winner."

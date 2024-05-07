@@ -1,0 +1,7 @@
+Nomic is a unique game designed by Peter Suber in 1982, where the main focus is to change the rules of the game as it is played. It starts with an initial set of rules, but players make and vote on proposals to change these rules throughout the game. The goal is generally to earn points, but how one earns points can change as the game evolves.
+
+The essence of Nomic is about the rules themselves - how they interact, change, and define the game space. It’s a reflection on legislative systems and the nature of governance. Players not only engage in strategic gameplay but also in a dialogue about the structure and limitations of rule-bound systems.
+
+Nomic is a game in which changing the rules is a move. In that respect it differs from almost every other game. The primary activity of Nomic is proposing changes in the rules, debating the wisdom of changing them in that way, voting on the changes, deciding what can and cannot be done afterwards, and doing it. Even this core of the game, of course, can be changed.
+
+Nomic is fundamentally about adaptive play: Players must adapt their strategies based on the evolving ruleset.

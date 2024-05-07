@@ -1,0 +1,59 @@
+{
+    "rules_filepath": "data/rules/game_rules.csv",
+    "locked_rules_filepath": "data/rules/locked_rules.txt",
+    "max_ticks": 100,
+    "gm_try_max": 3,
+    "prompts": {
+        "gm": {
+            "game_start_message": "The Game now begins. As the Game Manager, based on the rules and game state, what is the next action?",
+            "next_action": "As the Game Manager, based on the rules and game state, what action(s) do you take?",
+        },
+        "player": {
+        }
+    },    
+    "players": [
+        {
+            "number": 1,
+            "constitution": "data/constitutions/player/default_constitution.txt"
+        },
+        {
+            "number": 2,
+            "constitution": "data/constitutions/player/default_constitution.txt"
+        },
+        {
+            "number": 3,
+            "constitution": "data/constitutions/player/default_constitution.txt"
+        },
+        {
+            "number": 4,
+            "constitution": "data/constitutions/player/default_constitution.txt"
+        },
+        {
+            "number": 5,
+            "constitution": "data/constitutions/player/default_constitution.txt"
+        }
+    ],
+    "game_manager": {
+        "constitution": "data/constitutions/gm/default_constitution.txt"
+    },
+    "starting_context": {
+        "all": [
+            {
+                "description": "The Nomic Game",
+                "path": "data/context/nomic_game_context.txt"
+            }
+        ],
+        "player": [
+            {
+                "description": "Player Objective",
+                "path": "data/context/player_objective.txt"
+            }
+        ],
+        "game_manager": [
+            {
+                "description": "GM Objective",
+                "path": "data/context/gm_objective.txt"
+            }
+        ]
+    }
+}

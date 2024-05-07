@@ -1,0 +1,8 @@
+[flake8]
+ignore = E501  # Ignores the max line length. Remove this if you want to enforce line length.
+indent-size = 4
+tab-width = 4
+use-tabs = False
+max-line-length = 88
+extend-ignore = E203, E266, E501
+exclude = .git,__pycache__,build,dist
